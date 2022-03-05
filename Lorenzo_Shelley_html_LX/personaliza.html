@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,500;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personaliza tu pastel</title>
+</head>
+
+<body>
+
+    <body>
+        <nav>
+
+            <ul>
+
+                <li>
+                    <a href="pasteles.html">Pasteles</a>
+                </li>
+
+
+                <li>
+                    <a href="panes.html">Panes</a>
+                </li>
+
+
+
+                <li>
+                    <a href="personaliza.html">Personaliza tu pastel</a>
+                </li>
+
+
+            </ul>
+
+
+            <a class="carrito" id="derecha" href="/pagar"><svg xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-shopping-cart" width="44" height="44" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <circle cx="6" cy="19" r="2" />
+                    <circle cx="17" cy="19" r="2" />
+                    <path d="M17 17h-11v-14h-2" />
+                    <path d="M6 5l14 1l-1 7h-13" />
+                </svg>
+            </a>
+
+        </nav>
+
+        <img class="logo" src="./imgs/logo.png" alt="pastelería logo">
+        <h1 class="h1personaliza">Personaliza tu pastel</h1>
+        <p class="frase">¡Tú eres el chef!</p>
+
+        <section>
+
+            <h2>Elige adornos:</h2>
+
+            <form action="post">
+                <ul class="uls">
+                    <li>
+                        <input type="checkbox" name="fondant" id="fondant">
+                        <label for="fondant">Fondant <br><img src="./imgs/fondant.jpg" alt="imagen del fondant"></label>
+                        <br>
+                        <label for="desc">Escribe la descripción de cómo deseas el adorno de fondant</label>
+                        <br>
+                        <textarea name="desc" id="desc" cols="30" rows="10">Escribe tu descripción aquí</textarea>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" name="velasn" id="velasn">
+                        <label for="velasn">Velas de números <br><img src="./imgs/velas 123.jpg"
+                                alt="imagen de unas velas en forma de números"></label>
+                        <br>
+                        <label for="ven">Escribe el número que deseas formar</label>
+                        <br>
+                        <textarea name="ven" id="ven" cols="30"
+                            rows="10">Por ejemplo: quiero formar el número 11 con las velas</textarea>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" name="velasl" id="velasl">
+                        <label for="velasl">Velas de letras<br><img src="./imgs/velas letras.jpg"
+                                alt="imagen de unas velas en forma de letras"></label>
+                        <br>
+                        <label for="vel">Escribe la frase que desees formar</label>
+                        <br>
+                        <textarea name="vel" id="vel" cols="30"
+                            rows="10">Por ejemplo: quiero formar la frase "felicidades Juan"</textarea>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" name="lego" id="lego">
+                        <label for="lego">Figura de lego de personaje famoso<br><img src="./imgs/lego.jpg"
+                                alt="imagen de una figura de lego"></label>
+                        <br>
+                        <label for="desc">Selecciona a los personajes que desees agregar:</label>
+                        <br>
+                        <input type="checkbox" name="batman" id="batman">
+                        <label for="batman">Batman</label>
+                        <input type="checkbox" name="superman" id="superman">
+                        <label for="superman">Superman</label>
+                        <input type="checkbox" name="spiderman" id="spiderman">
+                        <label for="spiderman">Spiderman</label>
+                    </li>
+
+                </ul>
+            </form>
+
+        </section>
+
+        <section>
+
+            <h2>Elige sabores:</h2>
+
+            <h3>Selecciona si deseas un solo, dos sabores en mitades o cuatro sabores en cuartos</h3>
+
+            <form action="post">
+
+                <div class="radiob">
+                    <input type="radio" name="fracc" id="fracc1">
+                    <label for="fracc1">Completo</label>
+                    <input type="radio" name="fracc" id="fracc2">
+                    <label for="fracc2">Mitades</label>
+                    <input type="radio" name="fracc" id="fracc3">
+                    <label for="fracc3">Cuartos</label>
+                </div>
+
+
+                <h3>Ahora selecciona los sabores que deseas</h3>
+
+
+                <ul class="uls2">
+                    <li>
+                        <input type="checkbox" name="chocolatito" id="chocolatito">
+                        <label for="chocolatito">Chocolate <br><img src="./imgs/chocolate.jpg"
+                                alt="imagen de una barra de chocolate"></label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" name="tres leches" id="tres leches">
+                        <label for="tres leches">Tres leches <br><img src="./imgs/vainilla.jpg"
+                                alt="imagen de un pastel de tres leches"></label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" name="sfresa" id="sfresa">
+                        <label for="sfresa">Fresa <br><img src="./imgs/fresas.jpg" alt="imagen de unas fresas"></label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" name="mora" id="mora">
+                        <label for="mora">Mora azul <br><img src="./imgs/moras.jpg" alt="imagen de unas moras"></label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" name="moka" id="moka">
+                        <label for="moka">Moka <br><img src="./imgs/moka.jpg"
+                                alt="imagen de un café estilo moka"></label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" name="frojos" id="frojos">
+                        <label for="frojos">Frutos rojos <br><img src="./imgs/frutos rojos.jpg"
+                                alt="imagen de un pastel de frutos rojos"></label>
+                    </li>
+                    <br>
+
+                </ul>
+
+                <div class="radiob">
+                    <label for="nombrec">Ingresa tu nombre</label>
+                    <br>
+                    <input type="text" id="nombrec">
+                    <br>
+                    <label for="tel">Ingresa tu número telefónico</label>
+                    <br>
+                    <input type="number" id="tel">
+                    <br>
+                    <label for="email">Ingresa tu email</label>
+                    <br>
+                    <input type="email" id="email">
+                    <br>
+                    <label for="gdes">Agrega detalle adicionales sobre el pastel</label>
+                    <br>
+                    <textarea name="gdes" id="gdes" cols="30" rows="10"></textarea>
+                </div>
+
+
+                <button>Hacer pedido</button>
+            </form>
+
+        </section>
+
+
+
+        <footer>
+            <p>Éclat pour le palais</p>
+            <p>Direccion: Calle finolis #1, Zona finolis, Ciudad de México</p>
+            <p>Teléfono: 5555555555</p>
+            <p>Horarios de atención: 8 am - 8 pm</p>
+        </footer>
+
+    </body>
+
+</html>

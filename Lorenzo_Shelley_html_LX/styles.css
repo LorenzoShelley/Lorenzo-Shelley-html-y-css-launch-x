@@ -1,0 +1,176 @@
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #f7ebdd;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav{
+    background-color: #99563f;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+
+}
+
+
+nav a{
+    color:#f7ebdd;
+    text-decoration: none;
+    margin: 0 1rem
+}
+
+ul{
+    list-style: none ;
+    margin: 0;
+  padding: 0;
+  display: table;
+
+}
+
+li{
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.carrito:hover{
+    background-color: #b6664c;
+}
+
+nav li:hover{
+    background-color: #b6664c;
+}
+
+
+h1{
+    font-family: 'Euphoria Script', cursive;
+    color: #99563f;
+    font-weight:500;
+    font-size: 3rem;
+    margin-bottom: 4.5rem;
+}
+
+h2{
+    margin-bottom: 2rem;
+}
+
+img{
+    width: 30rem;
+    height: 30rem;
+    margin-bottom: 1rem;
+}
+
+.logo {
+
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+div{
+    border: 1px solid #99563f ;
+    margin-bottom: 2rem;
+}
+
+div p{
+    margin-bottom: 1rem;
+}
+
+button{
+    margin-bottom: 2rem;
+    padding: .5rem;
+    background-color: #b6664c;
+    color: #f7ebdd;
+    border: 1px solid #99563f;
+}
+
+button:hover{
+
+    background-color: #99563f;
+}
+
+footer{
+    background-color: #99563f;
+
+}
+
+footer p{
+    color:#f7ebdd;
+    margin: 1rem 0;
+}
+
+.frase{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.h1personaliza{
+    margin-bottom: 0rem;
+}
+
+li img{
+    width: 15rem ;
+    height: 15rem ;
+}
+
+
+
+section ul{
+    margin-bottom: 5rem;
+}
+
+h3 {
+   margin: 3.5rem 0;
+}
+
+.radiob{
+    border-style: none;
+    margin: 2rem 0;
+   
+}
+
+
+.uls{
+    width: 100%;
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.uls2{
+   
+    display: grid;
+    
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+
+#nombrec{
+    margin-bottom: 2rem;
+}
+
+#tel{
+    margin-bottom: 2rem;
+}
+
+#email{
+    margin-bottom: 2rem;
+}
